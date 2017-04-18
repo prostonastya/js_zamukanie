@@ -242,11 +242,15 @@ function ClassString(str){
 		return str.length;
 	};
 
-	// не знаю, как сделать +str//4
+	this.valueOf = function(){
+		return str.length
+	}
 
-	// this.toString = function(){
-	// 	return
-	// }
+	
+
+	this.toString = function(){
+		return str
+	}
 	
 };
 
